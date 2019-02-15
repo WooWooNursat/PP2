@@ -10,15 +10,17 @@ namespace task2
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            string line = Console.ReadLine();
-            string[] arr = line.Split();
-            for(int j=0;j<arr.Length;j++)
+            int n = int.Parse(Console.ReadLine());// создаю инт и ввожу значение
+            string line = Console.ReadLine();//записываю в строку
+            string[] arr = line.Split();//из строки записываю в массив
+            string[] arr1 = new string[2*n];
+            for(int j=0;j<arr.Length;j++)//цикл от начала до конца длины массива
             {
-                for(int i=0;i<2;i++)
-                {
-                    Console.Write(arr[j] + " ");
-                }
+                arr1[2 * j] = arr1[2 * j + 1] = arr[j];
+            }
+            for(int j = 0; j < arr1.Length; j++)
+            {
+                Console.Write(arr1[j] + " ");
             }
             Console.ReadKey();
         }

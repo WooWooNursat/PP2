@@ -8,24 +8,26 @@ namespace task4
 {
     class Student
     {
-        public string name;
-        public int id;
-        public int year = 0;
+        public string name;//создаю строку 
+        public int id;//создаю инт
+        public int year = 0;//создаю инт
         
-        public Student(string n, int i)
+        public Student(string n, int i)//конструктор с двумя параметрами
         {
-            name = n;
-            id = i;
+            name = n;//в строку записываю первый параметр
+            id = i;//в инт записываю второй параметр
         }
-        public void PrintInfo()
+        public void PrintInfo()//функция, которая выводит имя, айди и год
         {
-            for(int i = 0; i < 4; i++)
-            {
-                Console.WriteLine(name + " " + id + " " + ++year);
-            }
+            
+                Console.WriteLine(name + " " + id + " " + year);//вывод
+            
             
         }
-       
+        public void Incrementyear()//функция, увеличивающая год
+            {
+                year++;//увеличение 
+            }
 
 
 
@@ -37,9 +39,12 @@ namespace task4
     {
         static void Main(string[] args)
         {
-            Student s = new Student("Nurik", 7);
-            s.PrintInfo();
+            Student s = new Student("Nursat", 7);//новая переменная с типом студент
+            s.PrintInfo();//вызов функции
+            s.Incrementyear();//вызов функции
+            s.PrintInfo();//вызов функции
             Console.ReadKey();
         }
     }
 }
+

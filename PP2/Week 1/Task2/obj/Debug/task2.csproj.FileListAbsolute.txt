@@ -5,3 +5,10 @@ C:\Users\Nursat\source\repos\ConsoleApp1\task2\obj\Debug\task2.csprojAssemblyRef
 C:\Users\Nursat\source\repos\ConsoleApp1\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache
 C:\Users\Nursat\source\repos\ConsoleApp1\task2\obj\Debug\task2.exe
 C:\Users\Nursat\source\repos\ConsoleApp1\task2\obj\Debug\task2.pdb
+C:\Users\Nursat\source\repos\Week 1\task2\bin\Debug\task2.exe.config
+C:\Users\Nursat\source\repos\Week 1\task2\bin\Debug\task2.exe
+C:\Users\Nursat\source\repos\Week 1\task2\bin\Debug\task2.pdb
+C:\Users\Nursat\source\repos\Week 1\task2\obj\Debug\task2.csprojAssemblyReference.cache
+C:\Users\Nursat\source\repos\Week 1\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache
+C:\Users\Nursat\source\repos\Week 1\task2\obj\Debug\task2.exe
+C:\Users\Nursat\source\repos\Week 1\task2\obj\Debug\task2.pdb

@@ -22,6 +22,7 @@ namespace task3
                 }
                 Console.WriteLine("");//вывожу "" и перехожу на следующую строку
             }
+            Console.ReadKey();
         }
     }
 }
